@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+<body  style="background-color: rgb(91, 145, 102);">
+    <header>
+<img src="/files/1620016908.png" height="300" width="1500">
+    </header>   
+    <nav>
+        <h1 align="center">Please sign in</h1>
+    </nav>
+    <article align="center">
+<form>
+    <label for="username">UserName</label>
+    <input type="text" id="username" placeholder="Eldost Mirzeyev" minlength="5" maxlength="20" required><br>
+    <label for="password">Password</label>
+    <input type="password" placeholder="********" minlength="8" maxlength="15" required><br>
+    <label for="email">Email</label>
+    <input type="email" placeholder="youremail@gmail.com" required><br>
+    <label for="phone">Phone</label>
+    <input type="tel" id="phone" placeholder="12-345-67-89" pattern="[0-9]{2}[0-9]{3}{0-9}{2}[0-9]{2}" required><br>
+    <label for="bdya">Birthdate</label>
+    <input type="date" id="bday"><br>
+    <label for="title">Select your gender</label>
+    <label for="Mr">Mr</label>
+    <input type="radio" id="Mr" value="Mr" name="title">
+    <label for="Ms">Ms</label><br>
+    <input type="radio" id="Ms" value="Ms" name="title">
+    <label for="select">City</label>
+    <select id="select">
+         <option value="Baku">Baku</option>
+         <option value="Ganja">Ganja</option>
+         <option value="Shusa">Shusa</option>
+    </select>
+
+</form>
+    </article>
+    <footer align="center">
+        <hr>
+        <tr>
+            <th><a href="/index.html"> Home Page</a></th>
+            <th><a href="/pages/aboutme.html">About Me</a></th>
+        </tr>
+        <hr>
+
+    </footer>
+</body>
+</html>
